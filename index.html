@@ -5,39 +5,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Expenses chart component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-
-  My balance
-  $921.48
-
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<body class="font-DM flex justify-center items-center h-screen p-6 bg-Cream text-sm">
+  <main class="flex flex-col flex-1 gap-6 max-w-sm p-6">
+    <div class="flex justify-between p-6 rounded-xl bg-SoftRed text-white">
+      <div>
+        <h1 class="font-light">
+          My balance
+        </h1>
+        <p class="text-2xl font-bold">
+          $921.48
+        </p>
+      </div>
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    
+    <div class="flex flex-col gap-6 p-6 rounded-xl bg-white text-DarkBrown">
+      <h2 class="text-2xl font-bold">
+        Spending - Last 7
+      </h2>
+      <div class="flex gap-2">
+        <div class="flex flex-col-reverse items-center gap-1 min-w-0">
+          <p class="text-MediumBrown text-xs">
+            mon
+          </p>
+          <div class="h-10 bg-SoftRed rounded-md w-11/12">
+          </div>
+          <div class="p-2 rounded-md text-tiny bg-DarkBrown text-white">£33.33</div>
+        </div>
+        <div class="flex flex-col-reverse items-center gap-1 min-w-0">
+          <p class="text-MediumBrown text-xs">
+            tue
+          </p>
+          <div class="h-10 bg-SoftRed rounded-md w-11/12">
+          </div>
+          <div class="p-2 rounded-md text-tiny bg-DarkBrown text-white">£33.33</div>
+        </div>
+        <div class="flex flex-col-reverse items-center gap-1 min-w-0">
+          <p class="text-MediumBrown text-xs">
+            wed
+          </p>
+          <div class="h-10 bg-SoftRed rounded-md w-11/12">
+          </div>
+          <div class="p-2 rounded-md text-tiny bg-DarkBrown text-white">£33.33</div>
+        </div>
+        <div class="flex flex-col-reverse items-center gap-1 min-w-0">
+          <p class="text-MediumBrown text-xs">
+            thu
+          </p>
+          <div class="h-10 bg-SoftRed rounded-md w-11/12">
+          </div>
+          <div class="p-2 rounded-md text-tiny bg-DarkBrown text-white">£33.33</div>
+        </div>
+        <div class="flex flex-col-reverse items-center gap-1 min-w-0">
+          <p class="text-MediumBrown text-xs">
+            fri
+          </p>
+          <div class="h-10 bg-SoftRed rounded-md w-11/12">
+          </div>
+          <div class="p-2 rounded-md text-tiny bg-DarkBrown text-white">£33.33</div>
+        </div>
+        <div class="flex flex-col-reverse items-center gap-1 min-w-0">
+          <p class="text-MediumBrown text-xs">
+            sat
+          </p>
+          <div class="h-10 bg-SoftRed rounded-md w-11/12">
+          </div>
+          <div class="p-2 rounded-md text-tiny bg-DarkBrown text-white">£33.33</div>
+        </div>
+        <div class="flex flex-col-reverse items-center gap-1 min-w-0">
+          <p class="text-MediumBrown text-xs">
+            sun
+          </p>
+          <div class="h-10 bg-SoftRed rounded-md w-11/12">
+          </div>
+          <div class="p-2 rounded-md text-tiny bg-DarkBrown text-white">£33.33</div>
+        </div>
+      </div>      
+      <div class="flex justify-between border-Cream border-t-2 pt-6">
+        <div class="flex flex-col gap-1">
+          <p class="text-MediumBrown">
+            Total this month
+          </p>
+          <p class="text-3xl font-bold">
+            $478.33
+          </p>
+        </div>
+        <div class="self-end">
+          <p class="font-bold text-right">
+            +2.4%
+          </p>
+          <p class="text-MediumBrown">
+            from last month
+          </p>
+        </div>
+      </div>
+    </div>
+      
+  </main>
 </body>
 </html>
