@@ -8,7 +8,9 @@ module.exports = {
       },
       colors: {
         SoftRed: 'hsl(10, 79%, 65%)',
+        SoftRedHov: 'hsl(10, 79%, 75%)',
         Cyan: 'hsl(186, 34%, 60%)',
+        CyanHov: 'hsl(186, 34%, 70%)',
         DarkBrown: 'hsl(25, 47%, 15%)',
         MediumBrown: 'hsl(28, 10%, 53%)',
         Cream: 'hsl(27, 66%, 92%)',
